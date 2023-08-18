@@ -47,8 +47,8 @@ header .mobileGNBdrop {
 /* logo */
 .section1 h2 {
   text-align: center;
-  margin-top: 8.125rem;
-  margin-bottom: 3.5rem;
+  margin-top: 6.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* category */
@@ -62,7 +62,8 @@ header .mobileGNBdrop {
 
 /* social icon */
 .socialIcon {
-  margin-top: 5.938rem;
+  position: absolute;
+  bottom: 1.5rem;
 }
 .socialIcon li:first-child {
   margin-bottom: 1.3rem;
@@ -73,7 +74,7 @@ header .mobileGNBdrop {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 3rem;
+  bottom: 1.8rem;
   transform: translate(-50%);
 }
 
