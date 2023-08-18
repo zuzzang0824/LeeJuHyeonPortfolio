@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* common setting */
+html {
+  font-family: "Galmuri11", sans-serif;
+  background: url(../image/star-small.svg) no-repeat,
+    linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);
+  background-position: 50% 0%;
+  color: #fff;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+a {
+  color: #fff;
+}
+
+.boldFont {
+  font-family: "Galmuri11", sans-serif;
+  font-weight: bold;
+}
+
+/* mobile, tablet header */
+header {
+  width: calc(100% - 2.5rem);
+  height: 81.5px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bunny {
+  width: 1.88rem;
+}
+
+header .mobileGNB > li > .menuBtn {
+  width: 2.5rem;
+}
+
+header .mobileGNBdrop {
+  display: none;
+}
+
+/**** section1 ****/
+/* logo */
+.section1 h2 {
+  text-align: center;
+  margin-top: 8.125rem;
+  margin-bottom: 3.5rem;
+}
+
+/* category */
+.section1 .category {
+  text-align: center;
+}
+
+.section1 .category li {
+  margin-bottom: 2.4rem;
+}
+
+/* social icon */
+.socialIcon {
+  margin-top: 5.938rem;
+}
+.socialIcon li:first-child {
+  margin-bottom: 1.3rem;
+}
+
+/* arrow */
+.scrollIcon {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 3rem;
+  transform: translate(-50%);
+}
+
+/**** section2 ****/
+.section2 {
+  margin-top: 12.5rem;
+}
