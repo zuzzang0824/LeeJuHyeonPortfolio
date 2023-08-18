@@ -7,54 +7,88 @@
       name="viewport"
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
     />
+    <!-- galmuri web font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
+    />
+    <!-- 둥근모 font.css -->
+    <link rel="stylesheet" href="./common/css/font.css" />
     <!-- reset.css -->
-    <link rel="stylesheet" href="./common/minireset.css" />
+    <link rel="stylesheet" href="./common/css/minireset.css" />
     <!-- common.css -->
-    <link rel="stylesheet" href="./common/commonCss.css" />
+    <link rel="stylesheet" href="./common/css/common.css" />
+    <!-- mobile.css -->
+    <link rel="stylesheet" href="./mobile/mobile.css" />
+    <!-- tablet.css -->
+    <link
+      rel="stylesheet"
+      media="(min-width:768px)"
+      href="./tablet/tablet.css"
+    />
+    <!-- pc.css -->
+    <link rel="stylesheet" media="(min-width:1025px)" href="./pc/pc.css" />
+
     <title>이주현 웹퍼블리셔 포트폴리오</title>
   </head>
   <body>
     <header>
-      <button><img src="#" alt="bunny" />홈</button>
-      <ul>
-        <!-- moblie, tablet menu -->
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECT</a></li>
-        <li><a href="#">CONTACT</a></li>
+      <a href="#"
+        ><img src="./common/image/bunny.svg" alt="bunny" class="bunny"
+      /></a>
+
+      <ul class="mobileGNB">
+        <!-- menu btn -->
+        <li>
+          <img src="./common/image/menu.svg" alt="menu" class="menuBtn" />
+          <ul class="mobileGNBdrop">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </li>
       </ul>
     </header>
     <main>
       <!-- main section -->
-      <section>
+      <section class="section1">
         <!-- big logo -->
-        <h2>JUHYEON PORTFOLIO</h2>
+        <h2><img src="./common/image/logo.svg" alt="logo" /></h2>
 
         <!-- category -->
-        <ul>
+        <ul class="category">
           <li>
-            <a href="#"><img src="#" alt="lineBox" />ABOUT</a>
+            <a href="#"><img src="./common/image/about.svg" alt="about"></a>
+            </div>
           </li>
           <li>
-            <a href="#"><img src="#" alt="lineBox" />PROJECT</a>
+            <a href="#"><img src="./common/image/project.svg" alt="about"></a>
           </li>
           <li>
-            <a href="#"><img src="#" alt="lineBox" />CONTACT</a>
+            <a href="#"><img src="./common/image/contact.svg" alt="about"></a>
+            </div>
           </li>
         </ul>
 
-        <!-- homepage icon -->
-        <ul>
-          <li><a href="#">github</a></li>
-          <li><a href="#">velog</a></li>
+        <!-- social icon -->
+        <ul class="socialIcon">
+          <li>
+            <a href="#"><img src="./common/image/gitHub.svg" alt="gitHub" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./common/image/velog.svg" alt="velog" /></a>
+          </li>
         </ul>
 
         <!-- scroll icon -->
-        <a href="#">🔻</a>
+        <a href="#" class="scrollIcon"
+          ><img src="./common/image/downArrow.svg" alt="arrow"
+        /></a>
       </section>
 
       <!-- about section -->
-      <section>
-        <h2>About</h2>
+      <section class="section2">
+        <h2 class="boldFont">About</h2>
 
         <!-- big text + keyword -->
         <div class="aboutContainer">
@@ -116,8 +150,8 @@
       </section>
 
       <!-- tool & skill section -->
-      <section>
-        <h2>Tool & Skills</h2>
+      <section class="section3">
+        <h2 class="boldFont">Tool & Skills</h2>
 
         <!-- publishing -->
         <div class="toolContainer">
@@ -152,8 +186,8 @@
       </section>
 
       <!-- project section -->
-      <section>
-        <h2>Select Project</h2>
+      <section class="section4">
+        <h2 class="boldFont">Select Project</h2>
 
         <div class="projectBox">
           <ul>
@@ -197,8 +231,8 @@
       </section>
 
       <!-- contact section -->
-      <section>
-        <h2>Contact</h2>
+      <section class="section5">
+        <h2 class="boldFont">Contact</h2>
         <ul>
           <li>
             <a href="#"><img src="#" alt="email" />이메일</a>
@@ -213,6 +247,8 @@
       </section>
     </main>
 
-    <footer>Copyright 2023. Lee JuHyeon All rights reserved.</footer>
+    <footer class="boldFont">
+      Copyright 2023. Lee JuHyeon All rights reserved.
+    </footer>
   </body>
 </html>
