@@ -48,6 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 11;
 }
 
 .bunny {
@@ -135,7 +136,8 @@ header .mobileGNBdrop {
 
 .info p {
   color: #000;
-  font-size: 0.82rem;
+  /* font-size: 0.82rem; */
+  font-size: 3.3vw;
 }
 
 .info > p {
@@ -158,13 +160,15 @@ header .mobileGNBdrop {
 .expandInfo {
   position: relative;
   /* display: none; */
+  z-index: 1;
 }
 
 .expandInfo .expandInfoText {
   position: absolute;
   text-align: left;
   top: 3.5rem;
-  font-size: 0.77rem;
+  /* font-size: 0.77rem; */
+  font-size: 10%;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -172,15 +176,21 @@ header .mobileGNBdrop {
 
 .expandInfo button {
   position: absolute;
-  bottom: 1rem;
+  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
+  width: 35%;
+}
+
+.expandInfo button img {
+  width: 100%;
 }
 
 /**** section3  ****/
 .section3 ul {
   text-align: left;
-  margin-left: 3rem;
+  margin: 0 auto;
+  width: 15rem;
 }
 
 .section3 ul li {
@@ -202,6 +212,9 @@ header .mobileGNBdrop {
   margin-bottom: 1.25rem;
 }
 
+.toolContainer {
+  margin: 0 auto;
+}
 /**** section4 ****/
 .section4 ul:first-child {
   display: flex;
