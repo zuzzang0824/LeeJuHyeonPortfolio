@@ -9,6 +9,11 @@ html {
   color: #fff;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  z-index: 1;
+}
+
+body {
+  text-align: center;
 }
 
 a {
@@ -20,6 +25,20 @@ a {
   font-weight: bold;
 }
 
+.section3,
+.section4,
+.section5 {
+  margin-top: 12.5rem;
+}
+
+.subHeadingContainer {
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+
+button {
+  all: unset;
+}
 /* mobile, tablet header */
 header {
   width: calc(100% - 2.5rem);
@@ -60,9 +79,14 @@ header .mobileGNBdrop {
   margin-bottom: 2rem;
 }
 
+.section1 .category li:last-child {
+  margin-bottom: 1rem;
+}
+
 /* social icon */
 .socialIcon {
-  position: absolute;
+  text-align: left;
+  /* position: absolute; */
   bottom: 1.5rem;
 }
 .socialIcon li:first-child {
@@ -74,11 +98,165 @@ header .mobileGNBdrop {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 1.8rem;
+  bottom: 1.3rem;
   transform: translate(-50%);
 }
 
 /**** section2 ****/
 .section2 {
-  margin-top: 12.5rem;
+  margin-top: 15.625rem;
+  text-align: center;
+}
+
+.aboutContainer h3 {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+.aboutContainer ul {
+  font-size: 1.25rem;
+}
+
+.aboutContainer ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+
+.aboutContainer ul img {
+  width: 1.875rem;
+  margin-right: 0.7rem;
+}
+
+.aboutContainer ul li:last-child {
+  margin-bottom: 4.8rem;
+}
+
+.info p {
+  color: #000;
+  font-size: 0.82rem;
+}
+
+.info > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.96rem;
+  white-space: nowrap;
+  line-height: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.info .expandArrow {
+  margin-bottom: 1.7rem;
+}
+
+.info .expandArrow a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.expandInfo {
+  position: relative;
+  /* display: none; */
+}
+
+.expandInfo .expandInfoText {
+  position: absolute;
+  text-align: left;
+  top: 3.5rem;
+  font-size: 0.77rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.expandInfo button {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/**** section3  ****/
+.section3 ul {
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.section3 ul li {
+  font-size: 1.33rem;
+  display: flex;
+  gap: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.section3 ul li:last-child {
+  margin-bottom: 4rem;
+}
+
+.section3 ul li img {
+  width: 2.3rem;
+}
+
+.blackBoxContainer {
+  margin-bottom: 1.25rem;
+}
+
+/**** section4 ****/
+.section4 ul:first-child {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gameBoy {
+  /* 일단 보여지기용 이미지. 교체 필수 */
+  margin-top: 1.7rem;
+}
+
+.gameBoy ul {
+  /* 프로젝트 제목, 해시태그 일단 숨김 */
+  display: none;
+}
+
+.btnContainer {
+  margin-top: 0.7rem;
+}
+
+.btnContainer button:first-child img {
+  margin-right: 1.4rem;
+}
+
+/**** section5 ****/
+.section5 {
+  font-size: 1.875rem;
+}
+.section5 ul li {
+  margin-bottom: 4.4rem;
+}
+.section5 ul li a {
+  display: block;
+}
+.section5 ul li a p {
+  margin-top: 0.9rem;
+}
+.section5 ul li:first-child img {
+  width: 9.38rem;
+}
+
+.section5 ul li:nth-child(2) img {
+  width: 5.63rem;
+}
+
+.section5 ul li:last-child img {
+  width: 8.94rem;
+}
+
+/**** footer ****/
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+  margin-bottom: 2.25rem;
+  margin-top: 9rem;
 }
