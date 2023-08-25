@@ -28,7 +28,11 @@
     />
     <!-- pc.css -->
     <link rel="stylesheet" media="(min-width:1025px)" href="./pc/pc.css" />
-
+      <!-- script -->
+      <!-- <script src="./common/script/script.js"></script> -->
+    <!-- jQuery -->
+    <!-- <script src="./common/script/jquery-3.6.0.min.js"></script> -->
+  
     <title>이주현 웹퍼블리셔 포트폴리오</title>
   </head>
   <body>
@@ -41,10 +45,21 @@
         <!-- menu btn -->
         <li>
           <img src="./common/image/menu.svg" alt="menu" class="menuBtn" />
+          <!-- dropDown menu -->
           <ul class="mobileGNBdrop">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PROJECT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><img src="./common/image/profile.jpeg" alt="profile"></li>
+            <li>이주현</li>
+            <li>Lee JuHyeon</li>
+            <li>수원여자대학교 시각디자인<br>
+            미디어디자인 전공</li>
+            <li>
+                <img src="./common/image/mail.svg" alt="smallMail">
+            <p>tiny0824@naver.com</p></li>
+            <li>
+              <div class="smallPhoneContainer">
+                <img src="./common/image/phone.svg" alt="smallPhone">
+              </div>
+              010-8006-3955</li>
           </ul>
         </li>
       </ul>
@@ -123,26 +138,27 @@
             <!-- pixel popup img -->
             <div class="expandInfoImg">
               <img src="./mobile/image/moblieInfoBox.svg " alt="popUp" />
+              <img src="./common/image/infoBox.svg" alt="infoBox">
             </div>
 
             <div class="expandInfoText">
               <p>
-              안녕하세요! <br>시각디자인 디지털 학과를 전공한 이주현입니다.<br />
+              안녕하세요! 시각디자인 디지털 학과를 전공한 이주현입니다.<br><br>
 
-              UX/UI 디자인 직무를 희망하고 있던 중,<br />
-              “내가 디자인한 앱/웹을 구현할 수 있다면 어떨까?”<br />
-              하는 생각이 들었고, 대학교에서 한 학기 동안 <br />
-              HTML, CSS를 배웠던 것이 떠올랐습니다.<br /><br />
+              UX/UI 디자인 직무를 희망하고 있던 중,
+              “내가 디자인한 앱/웹을 구현할 수 있다면 어떨까?”
+              하는 생각이 들었고, 대학교에서 한 학기 동안 
+              HTML, CSS를 배웠던 것이 떠올랐습니다.<br><br>
 
-              디자인과 코딩을 동시에 다루는 웹퍼블리셔라는<br />
-              직업을 알게 되었고, 컴퓨터 작업을 좋아하는 제게<br />
-              잘 맞는 일이라고 판단되어 학원에서 웹 퍼블리셔<br />
-              과정을 이수하게 되었습니다.<br /><br />
+              디자인과 코딩을 동시에 다루는 웹퍼블리셔라는
+              직업을 알게 되었고, 컴퓨터 작업을 좋아하는 제게
+              잘 맞는 일이라고 판단되어 학원에서 웹 퍼블리셔
+              과정을 이수하게 되었습니다.<br><br>
 
-              내가 좋아하는, 새로운 것을 배우니 자연스럽게<br />
-              열정이 생겼습니다.<br /><br />
+              내가 좋아하는, 새로운 것을 배우니 자연스럽게
+              열정이 생겼습니다.<br><br>
 
-              멈추지 않고! 끝없이 성장하는 퍼블리셔가<br />
+              멈추지 않고! 끝없이 성장하는 퍼블리셔가
               되겠다고 다짐했습니다.
             </p>
           </div>
@@ -161,6 +177,7 @@
           </div>
 
         <!-- publishing -->
+      <div class="toolFlexContainer">
         <div class="toolContainer">
           <div class="blackBoxContainer">
             <img src="./common/image/blackBox-pub.svg" alt="blackBox-pub" />
@@ -188,6 +205,7 @@
             <li><img src="./common/image/heart.svg" alt="heart" />Zeplin</li>
           </ul>
         </div>
+      </div>
       </section>
 
       <!-- project section -->
@@ -199,17 +217,49 @@
         <div class="projectBox">
           <ul>
             <li>
-              <a href="#"><img src="./mobile/image/allBtn.svg" alt="lineBox" /></a>
+              <a href="#">
+                <!-- mobile -->
+                <img class="mobileBtn" src="./mobile/image/allBtn.svg" alt="lineBox" />
+
+                <!-- tablet -->
+                <img src="./tablet/image/allBtn.svg" alt="tabletAllBtn">
+
+                 <!-- pc -->
+                <div class="projectBtnContainer">
+                  <img src="./common/image/downArrow.svg" alt="arrow">All
+                </div>
+              </a>
             </li>
             <li>
-              <a href="#"><img src="./mobile/image/pubBtn.svg" alt="lineBox" /></a>
+              <a href="#">
+                <!-- mobile -->
+                <img class="mobileBtn" src="./mobile/image/pubBtn.svg" alt="lineBox" />
+
+                <!-- tablet -->
+                <img src="./tablet/image/pubBtn.svg" alt="tabletPubBtn">
+                
+
+                <!-- pc -->
+                <div class="projectBtnContainer">
+                  <img src="./common/image/downArrow.svg" alt="arrow">publishing
+                </div></a>
             </li>
             <li>
-              <a href="#"><img src="./mobile/image/dsnbtn.svg" alt="lineBox" /></a>
+              <a href="#">
+                <!-- mobile -->
+                <img class="mobileBtn" src="./mobile/image/dsnbtn.svg" alt="lineBox" />
+
+                <!-- tablet -->
+                <img src="./tablet/image/dsnBtn.svg" alt="tabletDsnBtn">
+
+                <!-- pc -->
+                <div class="projectBtnContainer">
+                  <img src="./common/image/downArrow.svg" alt="arrow">Design
+                </div></a>
             </li>
           </ul>
 
-          <!-- gameboy background img -->
+          <!-- gameboy img -->
           <div class="gameBoy">
             <img src="./common/image/gameBoy.svg" alt="projectImg" />
 
@@ -223,16 +273,15 @@
               <li>#기획</li>
               <li>#모바일</li>
             </ul>
+          </div>
+          <div class="btnContainer">
+            <button>
+              <img src="./common/image/leftBtn.svg" alt="projectBtnLeft" />
+            </button>
 
-            <div class="btnContainer">
-              <button>
-                <img src="./common/image/leftBtn.svg" alt="projectBtnLeft" />
-              </button>
-
-              <button>
-                <img src="./common/image/rightBtn.svg" alt="projectBtnRight" />
-              </button>
-            </div>
+            <button>
+              <img src="./common/image/rightBtn.svg" alt="projectBtnRight" />
+            </button>
           </div>
         </div>
       </section>

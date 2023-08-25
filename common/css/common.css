@@ -61,6 +61,61 @@ header .mobileGNB > li > .menuBtn {
 
 header .mobileGNBdrop {
   display: none;
+  position: absolute;
+  background-color: #1f1425;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+}
+
+header .mobileGNBdrop li:first-child {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 1.875rem;
+}
+
+header .mobileGNBdrop li:nth-child(2) {
+  font-size: 2.9375rem;
+  margin-top: 1.3rem;
+}
+header .mobileGNBdrop li:nth-child(3) {
+  font-size: 1.25rem;
+}
+
+header .mobileGNBdrop li:nth-child(4),
+header .mobileGNBdrop li:nth-child(5),
+header .mobileGNBdrop li:nth-child(6) {
+  font-size: 0.875rem;
+}
+
+header .mobileGNBdrop li:nth-child(4) {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+header .mobileGNBdrop li:nth-child(5),
+header .mobileGNBdrop li:nth-child(6) {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 1.3rem;
+  width: 12.5rem;
+  margin: 0 auto;
+  margin-bottom: 0.6rem;
+}
+
+header .mobileGNBdrop li:nth-child(5) img {
+  width: 1.88rem;
+}
+
+header .mobileGNBdrop .smallPhoneContainer {
+  width: 1.88rem;
+}
+
+header .mobileGNBdrop li:nth-child(6) {
+  top: 80.5vh;
+}
+header .mobileGNBdrop li:nth-child(6) img {
+  width: 1.13rem;
 }
 
 /**** section1 ****/
@@ -86,10 +141,10 @@ header .mobileGNBdrop {
 
 /* social icon */
 .socialIcon {
-  text-align: left;
-  /* position: absolute; */
-  bottom: 1.5rem;
+  position: absolute;
+  top: 82.5vh;
 }
+
 .socialIcon li:first-child {
   margin-bottom: 1.3rem;
 }
@@ -99,7 +154,7 @@ header .mobileGNBdrop {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 1.3rem;
+  top: 93vh;
   transform: translate(-50%);
 }
 
@@ -136,7 +191,6 @@ header .mobileGNBdrop {
 
 .info p {
   color: #000;
-  /* font-size: 0.82rem; */
   font-size: 3.3vw;
 }
 
@@ -164,26 +218,32 @@ header .mobileGNBdrop {
 }
 
 .expandInfo .expandInfoText {
+  width: 80%;
   position: absolute;
   text-align: left;
   top: 3.5rem;
-  /* font-size: 0.77rem; */
-  font-size: 10%;
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap;
 }
 
 .expandInfo button {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 35%;
+  width: 30%;
 }
 
 .expandInfo button img {
   width: 100%;
+}
+
+.expandInfoImg img:first-child {
+  display: block;
+}
+
+.expandInfoImg img:last-child {
+  display: none;
 }
 
 /**** section3  ****/
@@ -219,6 +279,10 @@ header .mobileGNBdrop {
 .section4 ul:first-child {
   display: flex;
   justify-content: space-around;
+}
+
+.projectBox .projectBtnContainer {
+  display: none;
 }
 
 .gameBoy {
