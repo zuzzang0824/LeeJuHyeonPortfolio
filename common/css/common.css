@@ -43,10 +43,11 @@ button {
 
 /* topBtn */
 .topBtn {
+  max-width: 50px;
   position: fixed;
   width: 11%;
-  top: 70%;
-  right: 5%;
+  bottom: 2rem;
+  right: 1rem;
   font-size: 0.1rem;
   z-index: 111;
 }
@@ -176,6 +177,10 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 /**** section1 ****/
 /* logo */
+.section1 {
+  position: relative;
+}
+
 .section1 h2 {
   text-align: center;
   margin-top: 6.5rem;
@@ -197,9 +202,7 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 /* social icon */
 .socialIcon {
-  position: absolute;
-  top: 82.5vh;
-  left: 1.27rem;
+  text-align: left;
 }
 
 .socialIcon li:first-child {
@@ -212,7 +215,7 @@ header .mobileGNBdrop li:nth-child(6) img {
   display: block;
   position: absolute;
   left: 50%;
-  top: 94vh;
+  bottom: 0;
   transform: translate(-50%);
 }
 

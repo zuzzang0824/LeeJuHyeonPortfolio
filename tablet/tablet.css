@@ -6,11 +6,6 @@
   width: 75%;
 }
 
-.socialIcon {
-  position: absolute;
-  top: 86vh;
-}
-
 .section1 h2 {
   margin-bottom: 5rem;
 }
@@ -66,7 +61,7 @@ header .mobileGNBdrop li:first-child {
 }
 
 .info p {
-  font-size: 1.125rem;
+  font-size: 2.3vw;
 }
 
 .expandInfo .expandInfoText {
