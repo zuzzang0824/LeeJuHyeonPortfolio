@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* 768x1024  */
+.topBtn {
+  font-size: 70%;
+}
 
 /**** section1 ****/
 .section1 h2 img {
@@ -50,9 +53,6 @@ header .mobileGNBdrop li:first-child {
 }
 
 .expandInfo button {
-  color: #000;
-  position: absolute;
-  bottom: 0;
   left: unset;
   right: 0;
   transform: none;
