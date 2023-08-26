@@ -55,17 +55,56 @@ header {
   width: 1.88rem;
 }
 
-header .mobileGNB > li > .menuBtn {
+header .mobileGNB > li > .menuBtn,
+header .mobileGNB > li > .menuClose {
   width: 2.5rem;
+}
+
+header .mobileGNB > li > .menuBtn {
+  /* display: none; */
+}
+
+header .mobileGNB > li > .menuClose {
+  display: none;
 }
 
 header .mobileGNBdrop {
   display: none;
   position: absolute;
-  background-color: #1f1425;
+  background-color: #1f1425f0;
   height: 100vh;
   width: 100%;
   left: 0;
+  z-index: 1;
+}
+
+.profileContainer {
+  position: relative;
+}
+
+.profileContainer img:nth-child(1),
+.profileContainer img:nth-child(2),
+.profileContainer img:nth-child(3),
+.profileContainer img:nth-child(4) {
+  position: absolute;
+  width: 2rem;
+}
+
+.profileContainer img:nth-child(1) {
+  top: -0.8rem;
+  left: -0.8rem;
+}
+.profileContainer img:nth-child(2) {
+  top: -0.8rem;
+  right: -0.8rem;
+}
+.profileContainer img:nth-child(3) {
+  bottom: -0.8rem;
+  left: -0.8rem;
+}
+.profileContainer img:nth-child(4) {
+  bottom: -0.8rem;
+  right: -0.8rem;
 }
 
 header .mobileGNBdrop li:first-child {
@@ -143,6 +182,7 @@ header .mobileGNBdrop li:nth-child(6) img {
 .socialIcon {
   position: absolute;
   top: 82.5vh;
+  left: 1.27rem;
 }
 
 .socialIcon li:first-child {
@@ -151,10 +191,11 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 /* arrow */
 .scrollIcon {
+  width: 1.8rem;
   display: block;
   position: absolute;
   left: 50%;
-  top: 93vh;
+  top: 94vh;
   transform: translate(-50%);
 }
 
@@ -209,6 +250,10 @@ header .mobileGNBdrop li:nth-child(6) img {
 .info .expandArrow a {
   display: block;
   margin-bottom: 0.5rem;
+}
+
+.info .expandArrow img {
+  width: 1.8rem;
 }
 
 .expandInfo {
@@ -282,6 +327,10 @@ header .mobileGNBdrop li:nth-child(6) img {
 }
 
 .projectBox .projectBtnContainer {
+  display: none;
+}
+
+.projectBox .tabletBtn {
   display: none;
 }
 
