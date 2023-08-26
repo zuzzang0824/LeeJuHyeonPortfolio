@@ -55,7 +55,14 @@ header .mobileGNBdrop li:first-child {
 }
 
 .expandInfo button {
-  display: none;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  left: unset;
+  right: 0;
+  transform: none;
+  width: 11%;
+  height: 100%;
 }
 
 .info p {
@@ -63,10 +70,10 @@ header .mobileGNBdrop li:first-child {
 }
 
 .expandInfo .expandInfoText {
-  width: 80%;
+  width: 70%;
   position: absolute;
   text-align: left;
-  top: 1.5rem;
+  top: 23%;
   left: 50%;
   transform: translateX(-50%);
 }

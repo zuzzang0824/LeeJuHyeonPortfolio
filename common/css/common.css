@@ -14,6 +14,7 @@ html {
 
 body {
   text-align: center;
+  position: relative;
 }
 
 a {
@@ -39,6 +40,21 @@ a {
 button {
   all: unset;
 }
+
+/* topBtn */
+.topBtn {
+  position: fixed;
+  width: 11%;
+  top: 70%;
+  right: 5%;
+  font-size: 0.1rem;
+  z-index: 111;
+}
+
+.topBtn img {
+  margin-bottom: 10%;
+}
+
 /* mobile, tablet header */
 header {
   width: calc(100% - 2.5rem);
@@ -60,6 +76,7 @@ header .mobileGNB > li > .menuClose {
   width: 2.5rem;
 }
 
+/* 여닫기 버튼 */
 header .mobileGNB > li > .menuBtn {
   /* display: none; */
 }
@@ -263,20 +280,23 @@ header .mobileGNBdrop li:nth-child(6) img {
 }
 
 .expandInfo .expandInfoText {
-  width: 80%;
+  font-family: "Pretendard-Regular";
+  width: 65%;
   position: absolute;
   text-align: left;
-  top: 3.5rem;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .expandInfo button {
+  color: #000;
   position: absolute;
-  bottom: 1rem;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 30%;
+  width: 90%;
+  height: 12.5%;
 }
 
 .expandInfo button img {
