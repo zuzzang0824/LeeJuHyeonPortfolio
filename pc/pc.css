@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* 1440x1024 */
+html {
+  background: url(../pc/image/star-pc.svg) no-repeat 50% 0,
+    linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}
+
+header {
+  width: calc(100% - 3.75 * 2rem);
+  margin-top: 2rem;
+}
+
+.bunny {
+  width: 3rem;
+}
+
+header .mobileGNB > li > .menuBtn {
+  display: none;
+}
+
+/**** section1 ****/
+.section1 h2 {
+  margin-top: 8rem;
+}
+.section1 h2 img {
+  width: 50rem;
+}
+
+.section1 .category {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.section1 .category li {
+  margin-bottom: 0;
+}
+
+.section1 .category img {
+  width: 18rem;
+}
+
+.socialIcon {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 6.2rem;
+}
+
+.socialIcon li:first-child {
+  margin-bottom: 0;
+}
+
+.socialIcon img {
+  width: 4rem;
+}
+
+.scrollIcon {
+  width: 3rem;
+}

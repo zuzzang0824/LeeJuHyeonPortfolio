@@ -1,11 +1,10 @@
 @charset "utf-8";
-
 /* common setting */
 html {
   font-family: "Galmuri11", sans-serif;
-  background: url(../image/star-small.svg) no-repeat,
+  background: url(../image/star-mobile.svg) no-repeat 50% 0,
     linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);
-  background-position: 50% 0%;
+
   color: #fff;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
