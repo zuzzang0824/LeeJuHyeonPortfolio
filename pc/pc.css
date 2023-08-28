@@ -7,6 +7,12 @@ html {
   padding-right: 3.75rem;
 }
 
+.topBtn {
+  max-width: 80px;
+  right: 3rem;
+  font-size: 100%;
+}
+
 header {
   width: calc(100% - 3.75 * 2rem);
   margin-top: 2rem;
@@ -22,10 +28,14 @@ header .mobileGNB > li > .menuBtn {
 
 /**** section1 ****/
 .section1 h2 {
+  margin: 0 auto;
   margin-top: 8rem;
+  margin-bottom: 4.7rem;
 }
+
 .section1 h2 img {
-  width: 50rem;
+  width: 45%;
+  max-width: 1000px;
 }
 
 .section1 .category {
@@ -36,6 +46,8 @@ header .mobileGNB > li > .menuBtn {
 
 .section1 .category li {
   margin-bottom: 0;
+  width: 15%;
+  max-width: 350px;
 }
 
 .section1 .category img {
