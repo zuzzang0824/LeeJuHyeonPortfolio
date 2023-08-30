@@ -8,9 +8,15 @@ html {
 }
 
 .topBtn {
-  max-width: 80px;
+  max-width: 70px;
   right: 3rem;
   font-size: 100%;
+}
+
+.section3,
+.section4,
+.section5 {
+  margin-top: 15rem;
 }
 
 header {
@@ -34,7 +40,7 @@ header .mobileGNB > li > .menuBtn {
 }
 
 .section1 h2 img {
-  width: 45%;
+  width: 62.5%;
   max-width: 1000px;
 }
 
@@ -46,12 +52,12 @@ header .mobileGNB > li > .menuBtn {
 
 .section1 .category li {
   margin-bottom: 0;
-  width: 15%;
-  max-width: 350px;
+  width: 20%;
+  max-width: 450px;
 }
 
 .section1 .category img {
-  width: 18rem;
+  width: 100%;
 }
 
 .socialIcon {
@@ -65,9 +71,155 @@ header .mobileGNB > li > .menuBtn {
 }
 
 .socialIcon img {
-  width: 4rem;
+  width: 3rem;
 }
 
 .scrollIcon {
   width: 3rem;
+}
+
+/**** section2 ****/
+.info p:first-child {
+  font-size: 1.875rem;
+}
+
+.info p:last-child {
+  font-size: 1.66vw;
+}
+
+.expandInfo {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.expandInfoImg img:last-child {
+  margin-left: 3.75rem;
+  margin-right: 3.75rem;
+  position: relative;
+}
+
+.expandInfo .expandInfoText {
+  width: 65%;
+  top: 26%;
+}
+
+.expandInfo button {
+  width: 11%;
+  font-size: 1.5vw;
+}
+
+.subHeadingContainer > img {
+  height: 2.67rem;
+}
+
+.aboutContainer h3 {
+  font-size: 5rem;
+}
+
+.aboutContainer ul {
+  font-size: 2.5rem;
+}
+
+.aboutContainer ul img {
+  width: 2.5rem;
+}
+
+.info .expandArrow a {
+  font-size: 1.875rem;
+}
+
+.info .expandArrow img {
+  width: 2.5rem;
+}
+
+.info > p {
+  margin-bottom: 3rem;
+}
+
+/**** section 3 ****/
+.section3 ul li {
+  font-size: 1.875rem;
+}
+
+.section3 ul {
+  width: unset;
+  margin-left: 16.5%;
+}
+
+.blackBoxContainer {
+  margin-bottom: 2.5rem;
+}
+
+.blackBoxContainer img {
+  width: 30rem;
+}
+
+.section3 ul li img {
+  width: 3.25rem;
+}
+
+/**** section4 ****/
+/* pc 호버 이벤트 버튼 */
+.projectBox .projectBtnContainer {
+  display: block;
+}
+
+.projectBtnContainer {
+  font-family: "Galmuri11", sans-serif;
+  font-weight: bold;
+  font-size: 1.5625rem;
+}
+
+.projectBtnContainer img {
+  opacity: 0;
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.projectBox li:hover .projectBtnContainer img {
+  opacity: 100%;
+}
+
+.gameBoy {
+  width: 40%;
+  max-width: 500px;
+}
+
+.gameBoy ul li {
+  font-size: 1.125rem;
+}
+
+.gameBoy ul li:first-child {
+  font-size: 1.875rem;
+}
+
+.section4 ul:first-child {
+  margin-top: 3rem;
+}
+
+.gameBoy ul li:nth-child(3),
+.gameBoy ul li:nth-child(4),
+.gameBoy ul li:nth-child(5) {
+  margin-bottom: 0.5rem;
+}
+
+.gameBoy ul li:nth-child(2) {
+  margin-bottom: 4rem;
+}
+
+.projectBox .tabletBtn {
+  display: none;
+}
+
+/**** footer ****/
+.section5 ul li:first-child img {
+  width: 14.375rem;
+}
+
+.section5 ul li:nth-child(2) img {
+  width: 7.5rem;
+}
+
+.section5 ul li:last-child img {
+  width: 13.27625rem;
 }

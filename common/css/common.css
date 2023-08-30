@@ -308,7 +308,7 @@ header .mobileGNBdrop li:nth-child(6) img {
   display: block;
 }
 
-.expandInfoImg img:last-child {
+.expandInfoImg img:nth-child(2) {
   display: none;
 }
 
@@ -356,13 +356,40 @@ header .mobileGNBdrop li:nth-child(6) img {
 }
 
 .gameBoy {
-  /* 일단 보여지기용 이미지. 교체 필수 */
-  margin-top: 1.7rem;
+  margin: 0 auto;
+  margin-top: 2.2rem;
+  position: relative;
+}
+
+.gameBoy img:first-child {
+  position: relative;
 }
 
 .gameBoy ul {
-  /* 프로젝트 제목, 해시태그 일단 숨김 */
-  display: none;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  left: 7.7%;
+  bottom: 6%;
+}
+
+.gameBoy ul li {
+  font-size: 4.2vw;
+}
+
+.gameBoy ul li:first-child {
+  font-size: 6.5vw;
+}
+
+.gameBoy ul li:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 27.7%;
+}
+
+.gameBoy ul li:nth-child(3),
+.gameBoy ul li:nth-child(4),
+.gameBoy ul li:nth-child(5) {
+  margin-bottom: 0.62rem;
 }
 
 .btnContainer {

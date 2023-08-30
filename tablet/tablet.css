@@ -52,7 +52,7 @@ header .mobileGNBdrop li:first-child {
   display: none;
 }
 
-.expandInfoImg img:last-child {
+.expandInfoImg img:nth-child(2) {
   display: block;
 }
 
@@ -86,9 +86,25 @@ header .mobileGNBdrop li:first-child {
 /**** section4 ****/
 .gameBoy {
   width: 75%;
-  margin: 0 auto;
-  margin-top: 2.2rem;
-  position: relative;
+}
+
+.gameBoy ul {
+  bottom: 7%;
+}
+
+.gameBoy ul li {
+  font-size: 3vw;
+}
+
+.gameBoy ul li:first-child {
+  font-size: 4.5vw;
+  margin-bottom: 3%;
+}
+
+.gameBoy ul li:nth-child(3),
+.gameBoy ul li:nth-child(4),
+.gameBoy ul li:nth-child(5) {
+  margin-bottom: 1rem;
 }
 
 .projectBox {
@@ -105,20 +121,9 @@ header .mobileGNBdrop li:first-child {
   display: none;
 }
 
-/* 이건 pc.css로 옮기기 (호버이벤트) */
-/* .projectBtnContainer {
-  font-family: "Galmuri11", sans-serif;
-  font-weight: bold;
-  font-size: 1.5625rem;
-} */
-
-/* .projectBtnContainer img {
-  opacity: 0;
+.projectBox .tabletBtn {
+  display: block;
 }
-
-.projectBox li:hover .projectBtnContainer img {
-  opacity: 100%;
-} */
 
 .section4 ul:first-child {
   justify-content: space-evenly;
