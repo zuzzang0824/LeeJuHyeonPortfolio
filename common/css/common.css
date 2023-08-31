@@ -342,7 +342,7 @@ header .mobileGNBdrop li:nth-child(6) img {
   margin: 0 auto;
 }
 /**** section4 ****/
-.section4 ul:first-child {
+/* .section4 ul:first-child {
   display: flex;
   justify-content: space-around;
 }
@@ -353,19 +353,21 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 .projectBox .tabletBtn {
   display: none;
+} */
+
+.sliderContainer {
+  position: relative;
 }
 
 .gameBoy {
-  margin: 0 auto;
   margin-top: 2.2rem;
-  position: relative;
 }
 
-.gameBoy img:first-child {
+/* .gameBoy img:first-child {
   position: relative;
-}
+} */
 
-.gameBoy ul {
+/* .gameBoy ul {
   color: #000;
   text-align: left;
   position: absolute;
@@ -390,7 +392,7 @@ header .mobileGNBdrop li:nth-child(6) img {
 .gameBoy ul li:nth-child(4),
 .gameBoy ul li:nth-child(5) {
   margin-bottom: 0.62rem;
-}
+} */
 
 .btnContainer {
   margin-top: 0.7rem;

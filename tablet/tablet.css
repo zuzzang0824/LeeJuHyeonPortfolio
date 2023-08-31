@@ -88,7 +88,7 @@ header .mobileGNBdrop li:first-child {
   width: 75%;
 }
 
-.gameBoy ul {
+/* .gameBoy ul {
   bottom: 7%;
 }
 
@@ -105,18 +105,18 @@ header .mobileGNBdrop li:first-child {
 .gameBoy ul li:nth-child(4),
 .gameBoy ul li:nth-child(5) {
   margin-bottom: 1rem;
-}
+} */
 
-.projectBox {
+/* .projectBox {
   position: relative;
 }
 
-/* 모바일 두꺼운 테두리 버튼 */
+/* 모바일 두꺼운 테두리 버튼 
 .projectBox .mobileBtn {
   display: none;
 }
 
-/* pc 호버 이벤트 버틑 */
+/* pc 호버 이벤트 버틑 
 .projectBox .projectBtnContainer {
   display: none;
 }
@@ -128,7 +128,7 @@ header .mobileGNBdrop li:first-child {
 .section4 ul:first-child {
   justify-content: space-evenly;
 }
-
+*/
 .btnContainer {
   display: flex;
   width: 100%;

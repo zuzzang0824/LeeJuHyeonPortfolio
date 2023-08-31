@@ -160,7 +160,7 @@ header .mobileGNB > li > .menuBtn {
 
 /**** section4 ****/
 /* pc 호버 이벤트 버튼 */
-.projectBox .projectBtnContainer {
+/* .projectBox .projectBtnContainer {
   display: block;
 }
 
@@ -178,14 +178,22 @@ header .mobileGNB > li > .menuBtn {
 
 .projectBox li:hover .projectBtnContainer img {
   opacity: 100%;
-}
+} */
 
 .gameBoy {
-  width: 40%;
-  max-width: 500px;
+  width: 35%;
+  max-width: 450px;
 }
 
-.gameBoy ul li {
+.gameBoyContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 3%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* .gameBoy ul li {
   font-size: 1.125rem;
 }
 
@@ -205,7 +213,7 @@ header .mobileGNB > li > .menuBtn {
 
 .gameBoy ul li:nth-child(2) {
   margin-bottom: 4rem;
-}
+} */
 
 .projectBox .tabletBtn {
   display: none;
