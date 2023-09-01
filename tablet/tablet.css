@@ -18,7 +18,7 @@ html {
 }
 
 .section1 .category li {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .section1 .category img {
@@ -84,61 +84,18 @@ header .mobileGNBdrop li:first-child {
 }
 
 /**** section4 ****/
-.gameBoy {
-  width: 75%;
-}
-
-/* .gameBoy ul {
-  bottom: 7%;
-}
-
-.gameBoy ul li {
-  font-size: 3vw;
-}
-
-.gameBoy ul li:first-child {
-  font-size: 4.5vw;
-  margin-bottom: 3%;
-}
-
-.gameBoy ul li:nth-child(3),
-.gameBoy ul li:nth-child(4),
-.gameBoy ul li:nth-child(5) {
-  margin-bottom: 1rem;
-} */
-
-/* .projectBox {
-  position: relative;
-}
-
-/* 모바일 두꺼운 테두리 버튼 
-.projectBox .mobileBtn {
-  display: none;
-}
-
-/* pc 호버 이벤트 버틑 
-.projectBox .projectBtnContainer {
-  display: none;
-}
-
-.projectBox .tabletBtn {
-  display: block;
-}
-
-.section4 ul:first-child {
-  justify-content: space-evenly;
-}
-*/
-.btnContainer {
-  display: flex;
+.swiper {
+  padding-bottom: 10%;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  justify-content: space-between;
 }
 
-.btnContainer img {
-  width: 3.5rem;
+.swiper-button-prev {
+  width: 7%;
+  left: 41%;
+}
+.swiper-button-next {
+  right: 41%;
+  width: 7%;
 }
 
 /**** section5 ****/

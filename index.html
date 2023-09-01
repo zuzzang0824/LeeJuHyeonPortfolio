@@ -7,6 +7,13 @@
       name="viewport"
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
     />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- galmuri font -->
     <link
       rel="stylesheet"
@@ -26,10 +33,10 @@
     />
     <!-- pc.css -->
     <link rel="stylesheet" media="(min-width:1025px)" href="./pc/pc.css" />
-    <!-- script -->
-    <!-- <script src="./common/script/script.js"></script> -->
     <!-- jQuery -->
-    <!-- <script src="./common/script/jquery-3.6.0.min.js"></script> -->
+    <script defer src="./common/script/jquery-3.7.1.min.js"></script>
+    <!-- script -->
+    <script defer src="./common/script/script.js"></script>
 
     <title>이주현 웹퍼블리셔 포트폴리오</title>
   </head>
@@ -88,20 +95,26 @@
       <!-- main section -->
       <section class="section1">
         <!-- big logo -->
-        <h2><img src="./common/image/logo.svg" alt="logo" /></h2>
+        <div class="section1Container">
+          <h2><img src="./common/image/logo.svg" alt="logo" /></h2>
 
-        <!-- category -->
-        <ul class="category">
-          <li>
-            <a href="#"><img src="./common/image/about.svg" alt="about" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./common/image/project.svg" alt="about" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./common/image/contact.svg" alt="about" /></a>
-          </li>
-        </ul>
+          <!-- category -->
+          <ul class="category">
+            <li>
+              <a href="#"><img src="./common/image/about.svg" alt="about" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./common/image/project.svg" alt="about"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./common/image/contact.svg" alt="about"
+              /></a>
+            </li>
+          </ul>
+        </div>
 
         <!-- social icon -->
         <ul class="socialIcon">
@@ -259,125 +272,31 @@
           />
         </div>
 
-        <!-- 아까운 카테고리 셀렉트 버튼들..
-        <div class="projectBox">
-          <ul>
-            <li>
-              <a href="#">
-                mobile
-                <img
-                  class="mobileBtn"
-                  src="./mobile/image/allBtn.svg"
-                  alt="lineBox"
-                />
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <a href="#" class="swiper-slide">
+              <img src="./common/image/petSalon.svg" alt="s1" />
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="./common/image/hueCalm.svg" alt="s2" />
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="./common/image/paulB.svg" alt="s3" />
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="./common/image/moran.svg" alt="s4" />
+            </a>
+          </div>
 
-                tablet
-                <img
-                  class="tabletBtn"
-                  src="./tablet/image/allBtn.svg"
-                  alt="tabletAllBtn"
-                />
-
-                pc 
-                <div class="projectBtnContainer">
-                  <img src="./common/image/leftArrow.svg" alt="arrow" />All
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                 mobile
-                <img
-                  class="mobileBtn"
-                  src="./mobile/image/pubBtn.svg"
-                  alt="lineBox"
-                />
-
-                tablet 
-                <img
-                  class="tabletBtn"
-                  src="./tablet/image/pubBtn.svg"
-                  alt="tabletPubBtn"
-                />
-
-                 pc 
-                <div class="projectBtnContainer">
-                  <img
-                    src="./common/image/leftArrow.svg"
-                    alt="arrow"
-                  />publishing
-                </div></a
-              >
-            </li>
-            <li>
-              <a href="#">
-                 mobile 
-                <img
-                  class="mobileBtn"
-                  src="./mobile/image/dsnbtn.svg"
-                  alt="lineBox"
-                />
-
-                 tablet
-                <img
-                  class="tabletBtn"
-                  src="./tablet/image/dsnBtn.svg"
-                  alt="tabletDsnBtn"
-                />
-
-                pc 
-                <div class="projectBtnContainer">
-                  <img src="./common/image/leftArrow.svg" alt="arrow" />Design
-                </div></a
-              >
-            </li>
-          </ul>
-          -->
-
-          <!-- 구 gameboy img -->
-          <!-- <div class="gameBoy">
-            <img src="./common/image/gameBoy.svg" alt="projectImg" />
-
-            <ul>
-              <li>펫살롱</li>
-              <li>반려동물 미용 예약 앱</li>
-
-
-
-              <li># UX/UI 디자인</li>
-              <li># 기획</li>
-              <li># 모바일</li>
-            </ul>
-          </div> -->
-          <div class="sliderContainer">
-            <div class="gameBoyContainer">
-              <div class="gameBoy">
-                <img src="./common/image/petSalon.svg" alt="p1" />
-              </div>
-              <div class="gameBoy">
-                <img src="./common/image/hueCalm.svg" alt="p2" />
-              </div>
-              <div class="gameBoy">
-                <img src="./common/image/paulB.svg" alt="p3" />
-              </div>
-              <!-- <div class="gameBoy">
-                <img src="./common/image/moran.svg" alt="p4" />
-              </div> -->
-            </div>
-
-            <!-- slider button -->
-            <div class="btnContainer">
-              <button>
-                <img src="./common/image/leftBtn.svg" alt="projectBtnLeft" />
-              </button>
-  
-              <button>
-                <img src="./common/image/rightBtn.svg" alt="projectBtnRight" />
-              </button>
-            </div>
-            </div>
-
-            
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev">
+            <img src="./common/image/leftBtn.svg" alt="" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="./common/image/rightBtn.svg" alt="" />
           </div>
         </div>
       </section>
