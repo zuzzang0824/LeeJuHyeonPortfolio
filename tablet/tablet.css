@@ -78,9 +78,15 @@ header .mobileGNBdrop li:first-child {
 }
 
 /**** section3 ****/
+.toolContainer {
+  margin: 0;
+}
+
 .toolFlexContainer {
   display: flex;
   margin-top: 4.5rem;
+  justify-content: center;
+  column-gap: 5rem;
 }
 
 /**** section4 ****/

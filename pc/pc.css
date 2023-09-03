@@ -144,23 +144,24 @@ header .mobileGNB:hover {
 }
 
 /**** section2 ****/
-.info p:first-child {
-  font-size: 1.875rem;
+.info p {
+  font-size: 1.5rem;
 }
 
 .info p:last-child {
-  font-size: 1.66vw;
-}
-
-.expandInfo {
-  width: 80%;
-  margin: 0 auto;
+  font-size: 25px;
 }
 
 .expandInfoImg img:last-child {
   margin-left: 3.75rem;
   margin-right: 3.75rem;
   position: relative;
+}
+
+.expandInfo {
+  max-width: 1120px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .expandInfo .expandInfoText {
@@ -170,7 +171,7 @@ header .mobileGNB:hover {
 
 .expandInfo button {
   width: 11%;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .subHeadingContainer > img {
@@ -199,6 +200,7 @@ header .mobileGNB:hover {
 
 .info > p {
   margin-bottom: 3rem;
+  font-size: 1.875rem;
 }
 
 /**** section 3 ****/
@@ -227,6 +229,7 @@ header .mobileGNB:hover {
 .swiper {
   padding-bottom: 9%;
   width: 90%;
+  max-width: 1800px;
 }
 
 .swiper-button-prev {
@@ -244,6 +247,10 @@ header .mobileGNB:hover {
 }
 
 /**** footer ****/
+.section5 ul {
+  max-width: 2500px;
+  margin: 0 auto;
+}
 .section5 ul li:first-child img {
   width: 14.375rem;
 }
