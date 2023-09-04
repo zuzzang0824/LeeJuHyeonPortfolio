@@ -7,6 +7,15 @@ html {
   padding-right: 3.75rem;
 }
 
+.cursor {
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 3rem;
+  will-change: transform;
+}
+
 .topBtn {
   max-width: 70px;
   right: 3rem;
@@ -36,13 +45,35 @@ header a:first-child:hover .bunny {
   scale: 130%;
 }
 
-header .mobileGNB > li > .menuBtn {
-  /* display: none; */
+header .mobileGNB > li > .menuBtn,
+header .mobileGNB > li > .menuClose {
   width: 3rem;
 }
-header .mobileGNB:hover {
+
+header .mobileGNB > li > .menuBtn:hover,
+header .mobileGNB > li > .menuClose:hover {
   cursor: pointer;
   scale: 130%;
+}
+
+header .mobileGNBdrop {
+  display: none;
+  border: none;
+  position: absolute;
+  width: 25%;
+  right: 0;
+  top: 20vh;
+  left: unset;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.profileContainer {
+  width: 100%;
+}
+
+header .mobileGNBdrop li:first-child {
+  margin-top: 0;
 }
 
 /**** section1 ****/
@@ -190,7 +221,7 @@ header .mobileGNB:hover {
   width: 2.5rem;
 }
 
-.info .expandArrow a {
+.info .expandArrow span {
   font-size: 1.875rem;
 }
 

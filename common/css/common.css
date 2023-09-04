@@ -9,6 +9,7 @@ html {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   z-index: 1;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,16 +41,22 @@ button {
   all: unset;
 }
 
+.cursor {
+  display: none;
+  z-index: 11111111;
+}
+
 /* topBtn */
 .topBtn {
+  display: none;
   max-width: 50px;
   position: fixed;
   width: 11%;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 1rem;
   font-size: 10%;
   z-index: 111;
-  animation: topBtnMove 0.5s infinite alternate linear;
+  animation: topBtnMove 1s infinite alternate linear;
 }
 @keyframes topBtnMove {
   0% {
@@ -86,21 +93,18 @@ header .mobileGNB > li > .menuClose {
 }
 
 /* 여닫기 버튼 */
-header .mobileGNB > li > .menuBtn {
-}
-
 header .mobileGNB > li > .menuClose {
   display: none;
 }
 
 header .mobileGNBdrop {
   display: none;
+  border: 5px double #fff;
+  top: 15vh;
   position: absolute;
   background-color: #1f1425f0;
-  height: 100vh;
   width: 100%;
   left: 0;
-  z-index: 1;
 }
 
 .profileContainer {
@@ -175,11 +179,12 @@ header .mobileGNBdrop .smallPhoneContainer {
   width: 1.88rem;
 }
 
-header .mobileGNBdrop li:nth-child(6) {
-  top: 80.5vh;
-}
 header .mobileGNBdrop li:nth-child(6) img {
   width: 1.13rem;
+}
+
+header .mobileGNBdrop li:last-child {
+  margin-bottom: 2rem;
 }
 
 /**** section1 ****/
@@ -293,6 +298,9 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 .info .expandArrow {
   margin-bottom: 1.7rem;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
 }
 
 .info .expandArrow a {
@@ -306,7 +314,7 @@ header .mobileGNBdrop li:nth-child(6) img {
 
 .expandInfo {
   position: relative;
-  /* display: none; */
+  display: none;
   z-index: 1;
 }
 
@@ -328,6 +336,7 @@ header .mobileGNBdrop li:nth-child(6) img {
   transform: translateX(-50%);
   width: 90%;
   height: 12.5%;
+  cursor: pointer;
 }
 
 .expandInfo button img {
@@ -415,15 +424,15 @@ header .mobileGNBdrop li:nth-child(6) img {
   margin-top: 0.9rem;
 }
 .section5 ul li:first-child img {
-  width: 9.38rem;
+  width: 6.38rem;
 }
 
 .section5 ul li:nth-child(2) img {
-  width: 5.63rem;
+  width: 3.63rem;
 }
 
 .section5 ul li:last-child img {
-  width: 8.94rem;
+  width: 6.5rem;
 }
 
 /**** footer ****/
