@@ -78,7 +78,7 @@ mouseEffect();
 
 // egg
 $(window).scroll(function () {
-  var scrT = $(window).scrollTop();
+  let scrT = $(window).scrollTop();
   if (scrT == $(document).height() - $(window).height()) {
     $(".easterEgg").addClass("on");
   } else {

@@ -195,11 +195,6 @@ header .mobileGNBdrop li:first-child {
   transform: translateX(-50%);
 }
 
-.expandInfo .expandInfoText {
-  width: 65%;
-  top: 26%;
-}
-
 .expandInfo button {
   width: 11%;
   font-size: 20px;
@@ -283,7 +278,7 @@ header .mobileGNBdrop li:first-child {
   margin: 0 auto;
 }
 .section5 ul li:first-child img {
-  width: 14.375rem;
+  width: 11.375rem;
 }
 
 .section5 ul li:hover {
@@ -291,11 +286,11 @@ header .mobileGNBdrop li:first-child {
 }
 
 .section5 ul li:nth-child(2) img {
-  width: 7.5rem;
+  width: 6.5rem;
 }
 
 .section5 ul li:last-child img {
-  width: 13.27625rem;
+  width: 11.5rem;
 }
 
 /* egg */

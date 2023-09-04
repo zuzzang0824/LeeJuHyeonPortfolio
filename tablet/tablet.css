@@ -77,15 +77,6 @@ header .mobileGNBdrop li:last-child {
   font-size: 2.3vw;
 }
 
-.expandInfo .expandInfoText {
-  width: 70%;
-  position: absolute;
-  text-align: left;
-  top: 23%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 /**** section3 ****/
 .toolContainer {
   margin: 0;

@@ -318,16 +318,6 @@ header .mobileGNBdrop li:last-child {
   z-index: 1;
 }
 
-.expandInfo .expandInfoText {
-  font-family: "Pretendard-Regular";
-  width: 65%;
-  position: absolute;
-  text-align: left;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .expandInfo button {
   color: #000;
   position: absolute;
