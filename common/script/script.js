@@ -75,3 +75,13 @@ function mouseEffect() {
 }
 
 mouseEffect();
+
+// egg
+$(window).scroll(function () {
+  var scrT = $(window).scrollTop();
+  if (scrT == $(document).height() - $(window).height()) {
+    $(".easterEgg").addClass("on");
+  } else {
+    $(".easterEgg").removeClass("on");
+  }
+});
