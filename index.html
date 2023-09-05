@@ -9,6 +9,18 @@
     />
     <!-- reset.css -->
     <link rel="stylesheet" href="./common/css/minireset.css" />
+    <!-- font.css -->
+    <link rel="stylesheet" href="./common/css/font.css" />
+    <!-- common.css -->
+    <link rel="stylesheet" href="./common/css/coin.css" />
+    <!-- tablet.css -->
+    <link
+      rel="stylesheet"
+      media="(min-width:768px)"
+      href="./tablet/coinTablet.css"
+    />
+    <!-- pc.css -->
+    <link rel="stylesheet" media="(min-width:1025px)" href="./pc/coinPc.css" />
     <!-- favicon -->
     <link
       rel="shortcut icon"
@@ -26,82 +38,16 @@
       property="og:url"
       content="https://zuzzang0824.github.io/LeeJuHyeonPortfolio/"
     />
-    <style>
-      html {
-        background: url(./tablet/image/star-tablet.svg) 50% no-repeat;
-        background-color: #1f1425;
-        color: #fff;
-        font-family: "DungGeunMo";
-        text-align: center;
-        height: 100vh;
-        position: relative;
-      }
-
-      .container {
-        position: relative;
-        top: 30vh;
-        height: 100%;
-      }
-      .coin img {
-        display: block;
-        width: 15%;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      h1 {
-        position: relative;
-        margin-bottom: 3rem;
-        font-size: 2rem;
-      }
-      p {
-        margin-top: 10rem;
-        font-size: 1.3rem;
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      /* tablet */
-      @media all and (min-width: 768px) and (max-width: 1024px) {
-        h1 {
-          font-size: 3rem;
-        }
-        .coin img {
-          width: 8%;
-        }
-        p {
-          font-size: 2rem;
-        }
-      }
-
-      /* pc */
-      @media all and (min-width: 1025px) {
-        html {
-          background: url(./pc/image/star-pc.svg) no-repeat;
-          background-color: #1f1425;
-        }
-      }
-      h1 {
-        font-size: 4rem;
-      }
-      .coin img {
-        width: 5%;
-      }
-      p {
-        font-size: 2.5rem;
-      }
-    </style>
-    <title>Get Start</title>
+    <title>PRESS START</title>
   </head>
+
   <body>
     <div class="container">
       <h1>
         INSERT COIN <br />
         TO START
       </h1>
-      <a href="./index2.html" class="coin" data-transition="pop"
+      <a href="./index2.html" class="coin"
         ><img src="./common/image/coin.gif" alt="coin"
       /></a>
     </div>

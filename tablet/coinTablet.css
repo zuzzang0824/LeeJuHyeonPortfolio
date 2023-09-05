@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* tablet */
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0px 2.5px #375da5, 2.5px 2.5px #ee0000;
+}
+.coin img {
+  width: 8%;
+}
+p {
+  font-size: 2rem;
+}

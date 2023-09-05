@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* 768x1024  */
 html {
-  background: url(../tablet/image/star-tablet.svg) no-repeat 50% 0,
+  background: url(../common/image/star-tablet.svg) no-repeat 50% 0,
     linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);
 }
 .topBtn {

@@ -1,0 +1,37 @@
+@charset "utf-8";
+html {
+  background: url(../image/star-tablet.svg) 50% no-repeat;
+  background-color: #1f1425;
+  color: #fff;
+  font-family: "DungGeunMo";
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  top: 30vh;
+  height: 100%;
+}
+.coin img {
+  display: block;
+  width: 15%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h1 {
+  position: relative;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-shadow: 0px 2px #375da5, 2px 2px #ee0000;
+}
+p {
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
