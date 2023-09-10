@@ -7,41 +7,34 @@
       name="viewport"
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
     />
-    <!-- swiper css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-    <!-- swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- galmuri font -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
     />
     <!-- reset.css -->
-    <link rel="stylesheet" href="./common/css/minireset.css" />
+    <link rel="stylesheet" href="../common/css/minireset.css" />
     <!-- common.css -->
-    <link rel="stylesheet" href="./common/css/common.css" />
+    <link rel="stylesheet" href="../common/css/sub.css" />
     <!-- tablet.css -->
     <link
       rel="stylesheet"
       media="(min-width:768px)"
-      href="./tablet/tablet.css"
+      href="../tablet/subTablet.css"
     />
     <!-- pc.css -->
-    <link rel="stylesheet" media="(min-width:1025px)" href="./pc/pc.css" />
+    <link rel="stylesheet" media="(min-width:1025px)" href="../pc/subPc.css" />
     <!-- jQuery -->
-    <script defer src="./common/script/jquery-3.7.1.min.js"></script>
+    <script defer src="../common/script/jquery-3.7.1.min.js"></script>
     <!-- script -->
-    <script defer src="./common/script/script.js"></script>
+    <script defer src="../common/script/script.js"></script>
     <!-- aos library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- favicon -->
     <link
       rel="shortcut icon"
-      href="./common/image/bunny.svg"
+      href="../common/image/bunny.svg"
       type="image/x-icon"
     />
     <title>이주현 웹퍼블리셔 포트폴리오</title>
@@ -101,204 +94,6 @@
       </ul>
     </header>
     <main>
-      <!-- main section -->
-      <section class="section1">
-        <!-- big logo -->
-        <div class="section1Container">
-          <h2><img src="./common/image/logo.svg" alt="logo" /></h2>
-
-          <!-- category -->
-          <ul class="category">
-            <li>
-              <a href="./index2.html#section2"
-                ><img src="./common/image/about.svg" alt="about"
-              /></a>
-            </li>
-            <li>
-              <a href="./index2.html#section4"
-                ><img src="./common/image/project.svg" alt="about"
-              /></a>
-            </li>
-            <li>
-              <a href="./index2.html#section5"
-                ><img src="./common/image/contact.svg" alt="about"
-              /></a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- social icon -->
-        <ul class="socialIcon">
-          <li>
-            <a href="https://github.com/zuzzang0824" target="_blank"
-              ><img src="./common/image/gitHub.svg" alt="gitHub"
-            /></a>
-          </li>
-          <li>
-            <a href="https://velog.io/@tosuni0824" target="_blank"
-              ><img src="./common/image/velog.svg" alt="velog"
-            /></a>
-          </li>
-        </ul>
-
-        <!-- scroll icon -->
-        <a href="./index2.html#section2" class="scrollIcon"
-          ><img src="./common/image/downArrow.svg" alt="arrow"
-        /></a>
-      </section>
-
-      <!-- about section -->
-      <section class="section2 section" id="section2">
-        <div class="subHeadingContainer" data-aos="fade-up">
-          <img src="./common/image/About-Stroke.svg" alt="aboutStroke" />
-        </div>
-
-        <!-- big text + keyword -->
-        <div class="aboutContainer" data-aos="fade-up" data-aos-delay="200">
-          <h3>
-            디자인에서<br />
-            퍼블리싱까지
-          </h3>
-
-          <ul>
-            <li>
-              <img src="./common/image/blueBall2.svg" alt="blueBall" />분석력
-            </li>
-            <li>
-              <img src="./common/image/redBall.svg" alt="redBall" />꼼꼼함
-            </li>
-            <li>
-              <img src="./common/image/blueBall3.svg" alt="navyBall" />차분함
-            </li>
-          </ul>
-        </div>
-
-        <!-- 자기소개 + 더보기 -->
-        <div class="info" data-aos="fade-up">
-          <!-- text -->
-          <p>
-            신입 웹 퍼블리셔 이주현입니다.<br />
-            탐색하고 배우며, 내 것으로 만들기를 좋아합니다.<br />
-            끝없이 공부하는 성장형 퍼블리셔 입니다!
-          </p>
-
-          <!-- expand arrow -->
-          <a href="#" class="expandArrow">
-            <span>더보기</span>
-            <img src="./common/image/downArrow.svg" alt="downArrow" />
-          </a>
-
-          <div class="expandInfo">
-            <!-- pixel popup img -->
-            <div class="expandInfoImg">
-              <img src="./common/image/mobileScroll.svg" alt="popUp" />
-              <img src="./common/image/scroll.svg" alt="infoBox" />
-              <div class="expandInfoText"></div>
-            </div>
-            <!-- close button -->
-            <button class="scrollClose">닫기</button>
-          </div>
-        </div>
-      </section>
-
-      <!-- tool & skill section -->
-      <section class="section3 section">
-        <div class="subHeadingContainer" data-aos="fade-up">
-          <img src="./common/image/Skills-Stroke.svg" alt="toolStroke" />
-        </div>
-
-        <!-- publishing -->
-        <div class="toolFlexContainer" data-aos="fade-up" data-aos-delay="200">
-          <div class="toolContainer">
-            <div class="blackBoxContainer">
-              <img src="./common/image/blackBox-pub.svg" alt="blackBox-pub" />
-            </div>
-
-            <ul>
-              <li><img src="./common/image/heart.svg" alt="heart" />HTML5</li>
-              <li><img src="./common/image/heart.svg" alt="heart" />CSS3</li>
-              <li>
-                <img
-                  src="./common/image/heartLess.svg"
-                  alt="heartLess"
-                />JavaScript(ES6+)
-              </li>
-              <li>
-                <img src="./common/image/heartLess.svg" alt="heartLess" />jQuery
-              </li>
-              <li>
-                <img src="./common/image/heartLess.svg" alt="heartLess" />Git &
-                GitHub
-              </li>
-            </ul>
-          </div>
-
-          <!-- design -->
-          <div class="toolContainer">
-            <div class="blackBoxContainer">
-              <img
-                src="./common/image/blackBox-design.svg"
-                alt="blackBox-design"
-              />
-            </div>
-            <ul>
-              <li>
-                <img src="./common/image/heart.svg" alt="heart" />Photoshop
-              </li>
-              <li>
-                <img src="./common/image/heart.svg" alt="heart" />Illustrator
-              </li>
-              <li><img src="./common/image/heart.svg" alt="heart" />Figma</li>
-              <li>
-                <img src="./common/image/heart.svg" alt="heart" />Adobe XD
-              </li>
-              <li><img src="./common/image/heart.svg" alt="heart" />Zeplin</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- project section -->
-      <section class="section4 section" id="section4">
-        <div class="subHeadingContainer" data-aos="fade-up">
-          <img
-            src="./common/image/SelectProject-Stroke.svg"
-            alt="projectStroke"
-          />
-        </div>
-
-        <!-- Slider main container -->
-        <div class="swiper" data-aos="fade-up" data-aos-delay="200">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <a href="./common/project/new_pet_salon.pdf" class="swiper-slide">
-              <img src="./common/image/petSalon.svg" alt="s1" />
-            </a>
-            <a
-              href="./common/project/hue_calm/hue_calm.html"
-              class="swiper-slide"
-            >
-              <img src="./common/image/hueCalm.svg" alt="s2" />
-            </a>
-            <a href="./common/project/paul_bassett.pdf" class="swiper-slide">
-              <img src="./common/image/paulB.svg" alt="s3" />
-            </a>
-            <a href="./common/project/moran_doran.pdf" class="swiper-slide">
-              <img src="./common/image/moran.svg" alt="s4" />
-            </a>
-          </div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev">
-            <img src="./common/image/leftBtn.svg" alt="leftBtn" />
-          </div>
-          <div class="swiper-button-next">
-            <img src="./common/image/rightBtn.svg" alt="rightBtn" />
-          </div>
-        </div>
-      </section>
-
       <!-- contact section -->
       <section class="section5 section" id="section5">
         <div
