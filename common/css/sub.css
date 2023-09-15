@@ -36,6 +36,7 @@
   height: 2.375rem;
   width: 100%;
   justify-content: space-evenly;
+  z-index: 11;
 }
 
 .btnContainer img,
@@ -46,6 +47,11 @@
 
 .btn_overview {
   filter: grayscale(0.7);
+  cursor: pointer;
+}
+
+.btn_info {
+  cursor: pointer;
 }
 
 .btn_view {
@@ -116,10 +122,9 @@
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  height: 100%;
   line-height: 6.5vw;
   color: rgba(255, 255, 255, 0.8);
 }

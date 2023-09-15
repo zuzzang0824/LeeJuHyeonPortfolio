@@ -1,1 +1,81 @@
 @charset "utf-8";
+
+.container {
+  position: relative;
+  margin-top: 8.5rem;
+}
+
+#section1 h1 {
+  padding-top: 10%;
+  font-size: 9rem;
+}
+
+#section1 h2 {
+  font-size: 2.5rem;
+}
+
+#section2 #pjtImg {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: -4.3rem;
+}
+
+#tab_menu {
+  position: absolute;
+  right: 0;
+  top: 55%;
+  width: 45%;
+  height: 100%;
+  transform: translateY(-50%);
+  left: unset;
+}
+
+#tab_menu li:first-child {
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+#tab_menu .txt {
+  grid-template-columns: 1.8fr 2.5fr;
+}
+
+.btnContainer {
+  height: 5rem;
+  top: -2rem;
+  right: 16%;
+  width: 30%;
+  left: unset;
+  transform: unset;
+}
+
+.btn_view {
+  height: 5rem;
+  bottom: -2rem;
+  right: 5%;
+  left: unset;
+  transform: unset;
+}
+
+#tab2 .txt {
+  display: block;
+  font-size: 1.2vw;
+  line-height: 2.2rem;
+  margin-top: 1rem;
+}
+
+#tab2 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#section3 .borderContainer p {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.btn_review {
+  height: 5rem;
+  top: -2rem;
+}

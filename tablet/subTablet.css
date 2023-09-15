@@ -34,13 +34,14 @@
 }
 
 #tab_menu {
-  width: 50%;
+  width: 100%;
 }
 
 #tab_menu li:first-child {
   font-size: 2.4vw;
   top: 47%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 
@@ -58,4 +59,24 @@
 
 #section2 #pjtImg {
   width: 85%;
+}
+
+#tab2 .txt {
+  display: block;
+  font-size: 2vw;
+  margin-top: 1rem;
+}
+
+#tab2 h3 {
+  font-size: 2.6vw;
+  margin-bottom: 1.5vw;
+}
+
+#tab2 {
+  line-height: 3.5vw;
+  position: absolute;
+  font-size: 3.5vw;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
 }
