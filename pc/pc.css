@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* 1440x1024 */
 html {
   background: url(../common/image/star-pc.svg) no-repeat,
     linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);

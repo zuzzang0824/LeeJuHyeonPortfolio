@@ -1,137 +1,130 @@
 @charset "utf-8";
-html {
-  font-family: "Galmuri11", sans-serif;
-  background: url(../image/star-tablet.svg) no-repeat,
-    linear-gradient(180deg, #1f1425 56.77%, #735e7e 100%);
-
-  color: #fff;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  z-index: 1;
-  scroll-behavior: smooth;
+#section1 h1 {
+  font-size: 3.125rem;
+  padding-top: 6.5rem;
 }
 
-body {
-  text-align: center;
+#section1 h2 {
+  font-size: 0.9rem;
+}
+
+/* section2 */
+#section2 {
+  margin-bottom: 10rem;
+}
+#section2 #pjtImg {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+/* pc border hide */
+.borderContainer img:nth-child(2) {
+  display: none;
+}
+
+.borderContainer {
   position: relative;
 }
 
-a {
-  color: #fff;
+/* btn 3개 */
+.btnContainer {
+  display: flex;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2.375rem;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-/* header */
-header {
-  width: calc(100% - 2.5rem);
-  height: 81.5px;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.btnContainer img,
+.btn_view img,
+.btn_review img {
+  height: 100%;
+}
+
+.btn_overview {
+  filter: grayscale(0.7);
+}
+
+.btn_view {
+  position: absolute;
+  height: 2.375rem;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 11;
 }
 
-.bunny {
-  width: 1.88rem;
-}
-
-header .mobileGNB > li > .menuBtn,
-header .mobileGNB > li > .menuClose {
-  width: 2.5rem;
-}
-
-/* 여닫기 버튼 */
-header .mobileGNB > li > .menuClose {
-  display: none;
-}
-
-header .mobileGNBdrop {
-  display: none;
-  border: 5px double #fff;
-  top: 15vh;
+#tab_menu {
+  text-align: left;
   position: absolute;
-  background-color: #1f1425f0;
-  width: 100%;
-  left: 0;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
 }
 
-.profileContainer {
-  position: relative;
-}
-
-.profileContainer img:nth-child(1),
-.profileContainer img:nth-child(2),
-.profileContainer img:nth-child(3),
-.profileContainer img:nth-child(4) {
+#tab_menu li:first-child {
+  font-size: 4vw;
+  top: 47%;
+  transform: translateY(-50%);
   position: absolute;
-  width: 2rem;
 }
 
-.profileContainer img:nth-child(1) {
-  top: -0.8rem;
-  left: -0.8rem;
-}
-.profileContainer img:nth-child(2) {
-  top: -0.8rem;
-  right: -0.8rem;
-}
-.profileContainer img:nth-child(3) {
-  bottom: -0.8rem;
-  left: -0.8rem;
-}
-.profileContainer img:nth-child(4) {
-  bottom: -0.8rem;
-  right: -0.8rem;
+#tab1 h3 {
+  margin-bottom: 0.2rem;
 }
 
-header .mobileGNBdrop li:first-child {
-  width: 45%;
-  margin: 0 auto;
-  margin-top: 1.875rem;
+#tab_menu .txt {
+  margin: 2rem 0;
+  height: 25%;
 }
 
-header .mobileGNBdrop li:nth-child(2) {
-  font-size: 2.9375rem;
-  margin-top: 1.3rem;
-}
-header .mobileGNBdrop li:nth-child(3) {
-  font-size: 1.25rem;
+#tab1 {
+  /* display: none; */
 }
 
-header .mobileGNBdrop li:nth-child(4),
-header .mobileGNBdrop li:nth-child(5),
-header .mobileGNBdrop li:nth-child(6) {
-  font-size: 0.875rem;
+#tab2 {
+  display: none;
+  line-height: 6vw;
+  font-size: 3.5vw;
 }
 
-header .mobileGNBdrop li:nth-child(4) {
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+#tab2 #tab_menu li {
+  font-size: 3vw;
 }
 
-header .mobileGNBdrop li:nth-child(5),
-header .mobileGNBdrop li:nth-child(6) {
-  display: flex;
-  align-items: flex-end;
-  column-gap: 1.3rem;
-  width: 12.5rem;
-  margin: 0 auto;
-  margin-bottom: 0.6rem;
+#tab2 h3 {
+  font-size: 5vw;
+  margin-bottom: 2vw;
 }
 
-header .mobileGNBdrop li:nth-child(5) img {
-  width: 1.88rem;
+/* section3 */
+.btn_review {
+  position: absolute;
+  height: 2.375rem;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-header .mobileGNBdrop .smallPhoneContainer {
-  width: 1.88rem;
+#section3 .borderContainer p {
+  font-size: 4vw;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
+  line-height: 6.5vw;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-header .mobileGNBdrop li:nth-child(6) img {
-  width: 1.13rem;
-}
-
-header .mobileGNBdrop li:last-child {
-  margin-bottom: 2rem;
+#section3 a {
+  font-weight: bold;
+  text-decoration: underline;
 }
