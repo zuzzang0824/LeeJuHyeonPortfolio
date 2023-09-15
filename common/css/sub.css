@@ -18,7 +18,7 @@
 }
 
 /* pc border hide */
-.borderContainer img:nth-child(2) {
+.border_pc {
   display: none;
 }
 
@@ -87,10 +87,6 @@
 #tab_menu .txt {
   margin: 2rem 0;
   height: 25%;
-}
-
-#tab1 {
-  /* display: none; */
 }
 
 #tab2 {

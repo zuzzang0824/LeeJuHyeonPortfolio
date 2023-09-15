@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* mobile border hide */
-.borderContainer > img:first-child {
+.border_mobile {
   display: none;
 }
+
 .borderContainer > img:nth-child(2) {
   display: block;
   position: relative;
@@ -63,7 +64,7 @@
 
 #tab2 .txt {
   display: block;
-  font-size: 2vw;
+  font-size: 2 vw;
   margin-top: 1rem;
 }
 
