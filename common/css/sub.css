@@ -34,24 +34,26 @@
   left: 50%;
   transform: translateX(-50%);
   height: 2.375rem;
-  width: 100%;
-  justify-content: space-evenly;
   z-index: 11;
+  column-gap: 1.5rem;
 }
 
 .btnContainer img,
 .btn_view img,
 .btn_review img {
   height: 100%;
+  max-width: unset;
 }
 
 .btn_overview {
   filter: grayscale(0.7);
   cursor: pointer;
+  height: 2.375rem;
 }
 
 .btn_info {
   cursor: pointer;
+  height: 2.375rem;
 }
 
 .btn_view {

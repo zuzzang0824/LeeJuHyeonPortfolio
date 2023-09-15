@@ -18,14 +18,28 @@
 
 .btnContainer {
   height: 3rem;
-  justify-content: center;
   column-gap: 3rem;
   top: -1.5rem;
+}
+
+.btnContainer img,
+.btn_view img,
+.btn_review img {
+  height: 100%;
+  max-width: 100%;
 }
 
 .btn_view {
   height: 3rem;
   bottom: -1.5rem;
+}
+
+.btn_overview {
+  height: unset;
+}
+
+.btn_info {
+  height: unset;
 }
 
 #tab_menu .txt {
