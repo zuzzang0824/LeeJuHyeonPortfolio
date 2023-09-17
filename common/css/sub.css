@@ -1,4 +1,8 @@
 @charset "utf-8";
+.profileContainer {
+  z-index: 11;
+}
+
 #section1 h1 {
   font-size: 3.125rem;
   padding-top: 6.5rem;
@@ -12,7 +16,7 @@
 #section2 {
   margin-bottom: 10rem;
 }
-#section2 #pjtImg {
+#section2 .pjtImg {
   margin-top: 4rem;
   margin-bottom: 10rem;
 }
@@ -34,7 +38,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 2.375rem;
-  z-index: 11;
+  z-index: 1;
   column-gap: 1.5rem;
 }
 
@@ -62,22 +66,21 @@
   bottom: -1rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 11;
+  z-index: 1;
 }
 
 #tab_menu {
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  height: 100%;
 }
 
 #tab_menu li:first-child {
   font-size: 4vw;
-  top: 47%;
+  top: 50%;
   transform: translateY(-50%);
   position: absolute;
 }
@@ -86,15 +89,22 @@
   margin-bottom: 0.2rem;
 }
 
+#tab1 .txt p {
+  margin-bottom: 1.5rem;
+}
+
+#tab1 .txt:last-child p {
+  margin-bottom: 0;
+}
+
 #tab_menu .txt {
-  margin: 2rem 0;
   height: 25%;
 }
 
 #tab2 {
   display: none;
-  line-height: 6vw;
-  font-size: 3.5vw;
+  line-height: 1.3rem;
+  font-size: 3.9vw;
 }
 
 #tab2 #tab_menu li {

@@ -43,7 +43,6 @@
 }
 
 #tab_menu .txt {
-  margin: 1.5rem 0;
   display: grid;
   grid-template-columns: 1.8fr 3fr;
 }
@@ -62,9 +61,9 @@
 
 #section3 .borderContainer p {
   font-size: 2.4vw;
-  line-height: 4.3vw;
   height: unset;
   top: 52%;
+  line-height: 1.6rem;
 }
 
 .btn_review {
@@ -72,14 +71,13 @@
   top: -1.5rem;
 }
 
-#section2 #pjtImg {
+#section2 .pjtImg {
   width: 85%;
 }
 
 #tab2 .txt {
   display: block;
   font-size: 2vw;
-  margin-top: 1rem;
 }
 
 #tab2 h3 {
@@ -88,10 +86,9 @@
 }
 
 #tab2 {
-  line-height: 3.5vw;
   position: absolute;
-  font-size: 3.5vw;
   width: 80%;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

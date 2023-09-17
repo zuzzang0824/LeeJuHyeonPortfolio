@@ -1,0 +1,32 @@
+@charset "utf-8";
+.profileContainer {
+}
+
+#tab2 {
+  display: none;
+  font-size: 4.5vw;
+  line-height: 1.6rem;
+}
+
+#tab1 .txt p {
+  margin-bottom: 1.1rem;
+}
+
+#pjtImg_hue {
+  margin: 2rem 0 3rem 0;
+}
+
+#tab_menu .txt {
+  margin: 1.3rem 0;
+  height: 25%;
+}
+
+#tab_menu {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: unset;
+}
