@@ -14,3 +14,10 @@
 #tab2 {
   width: 70%;
 }
+
+.btnContainer2 {
+  bottom: -2rem;
+  left: unset;
+  right: 5%;
+  top: unset;
+}

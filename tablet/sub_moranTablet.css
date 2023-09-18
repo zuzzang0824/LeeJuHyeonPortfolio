@@ -2,3 +2,7 @@
 #tab_menu li:first-child {
   width: 59%;
 }
+.btnContainer2 {
+  bottom: -1.5rem;
+  top: unset;
+}
