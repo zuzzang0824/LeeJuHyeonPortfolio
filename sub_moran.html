@@ -7,6 +7,11 @@
       name="viewport"
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
     />
+    <!-- galmuri font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
+    />
     <!-- swiper css -->
     <link
       rel="stylesheet"
@@ -14,16 +19,13 @@
     />
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <!-- galmuri font -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
-    />
     <!-- reset.css -->
     <link rel="stylesheet" href="./common/css/minireset.css" />
     <!-- common.css -->
     <link rel="stylesheet" href="./common/css/common.css" />
     <link rel="stylesheet" href="./common/css/sub.css" />
+    <link rel="stylesheet" href="./common/css/sub_paul.css" />
+    <link rel="stylesheet" href="./common/css/sub_moran.css" />
     <!-- tablet.css -->
     <link
       rel="stylesheet"
@@ -35,9 +37,29 @@
       media="(min-width:768px)"
       href="./tablet/subTablet.css"
     />
+    <link
+      rel="stylesheet"
+      media="(min-width:768px)"
+      href="./tablet/sub_paulTablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:768px)"
+      href="./tablet/sub_moranTablet.css"
+    />
     <!-- pc.css -->
     <link rel="stylesheet" media="(min-width:1025px)" href="./pc/pc.css" />
     <link rel="stylesheet" media="(min-width:1025px)" href="./pc/subPc.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:1025px)"
+      href="./pc/sub_paulPc.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:1025px)"
+      href="./pc/sub_moranPc.css"
+    />
     <!-- jQuery -->
     <script defer src="./common/script/jquery-3.7.1.min.js"></script>
     <!-- script -->
@@ -52,7 +74,7 @@
       href="./common/image/bunny.svg"
       type="image/x-icon"
     />
-    <title>이주현 웹퍼블리셔 포트폴리오</title>
+    <title>모란도란</title>
   </head>
   <body>
     <div class="cursor">
@@ -64,7 +86,7 @@
     >
 
     <header>
-      <a href="./index.html"
+      <a href="./index2.html"
         ><img src="./common/image/bunny.svg" alt="bunny" class="bunny"
       /></a>
 
@@ -110,8 +132,8 @@
     </header>
     <main>
       <section id="section1">
-        <h1>펫살롱</h1>
-        <h2>반려동물 미용 예약 앱</h2>
+        <h1>모란도란</h1>
+        <h2>모란시장 브랜드 디자인</h2>
       </section>
 
       <section id="section2">
@@ -119,15 +141,24 @@
         <div class="container">
           <!-- 프로젝트 이미지 -->
           <img
-            src="./common/image/sub_img/pet.png"
+            src="./common/image/sub_img/moran.svg"
             alt="petsalon"
-            id="pjtImg"
+            class="pjtImg"
           />
 
           <!-- 테두리 + 버튼 + 안에 내용 -->
           <div class="borderContainer">
-            <img src="./common/image/sub_img/border_m.svg" alt="border_m" />
-            <img src="./common/image/sub_img/border.svg" alt="border" />
+            <img
+              src="./common/image/sub_img/border_m.svg"
+              alt="border_m"
+              class="border_mobile"
+            />
+            <img
+              src="./common/image/sub_img/border.svg"
+              alt="border"
+              class="border_pc"
+            />
+
             <!-- 귀여운 버튼들 -->
             <div class="btnContainer">
               <div class="btn_info">
@@ -141,45 +172,54 @@
               </div>
             </div>
 
-            <a
-              href="./common/project/new_pet_salon.pdf"
-              target="_blank"
-              class="btn_view"
-            >
-              <img src="./common/image/sub_img/btn_view.svg" alt="btn_view" />
-            </a>
+            <div class="btnContainer btnContainer2">
+              <a
+                href="./common/project/moran_doran.pdf"
+                target="_blank"
+                class="btn_view"
+              >
+                <img src="./common/image/sub_img/btn_view.svg" alt="btn_view" />
+              </a>
+              <a
+                href="./common/project/moran_panel.pdf"
+                target="_blank"
+                class="btn_view"
+              >
+                <img
+                  src="./common/image/sub_img/btn_panel.svg"
+                  alt="btn_view"
+                />
+              </a>
+            </div>
 
             <ul id="tab_menu">
               <li id="tab1">
                 <div class="txt">
                   <h3>작업 형태</h3>
-                  <p>[ 개인 작업 ]</p>
+                  <p>[ 팀 작업 ]</p>
                 </div>
                 <div class="txt">
                   <h3>기여도</h3>
-                  <p>[ 100% ]</p>
+                  <p>[ 30% ]</p>
                 </div>
                 <div class="txt">
                   <h3>기간</h3>
-                  <p>[ 2023.04 - 2023.05 ]</p>
+                  <p>[ 2020.09 - 2020.11 ]</p>
                 </div>
                 <div class="txt">
-                  <h3>사용 툴</h3>
-                  <p>[ XD, Ps, Illustrator ]</p>
+                  <h3>담당 업무</h3>
+                  <p>[ 자료조사, 디자인, 웹 제작 등 ]</p>
                 </div>
               </li>
               <li id="tab2">
                 <div class="txt">
-                  <h3>“반려동물 천만시대”</h3>
+                  <h3>“소통해요 우리, 도란도란 모란모란”</h3>
                   <p>
-                    반려동물 미용실 예약을 편리하게, 미용실 정보와 후기들을
-                    확인하고 이용할 수 있도록 애플리케이션을 기획했습니다.
-                    <br /><br />
-                    반려동물 양육가구가 계속 늘어남과 동시에 연관사업 중 하나인
-                    애견미용실의 수도 증가하고 있지만, 앱스토어나
-                    구글플레이스토어에 반려동물 미용 애플리케이션이 없다는 것을
-                    확인했습니다. 반려동물 양육가구에 편리함을 제공하고자,
-                    애플리케이션을 기획했습니다.
+                    현대인의 소비패턴엔 큰 변화가 생겼습니다. 온라인이나 대형
+                    마트를 통해 물품을 구매하는 경우가 대부분입니다. 전통시장
+                    보존 및 지역 상권 활성화를 위해 모란도란 서비스를
+                    제안합니다. 복잡한 동선 문제를 해결하고 외부 소비자들의
+                    접근성을 높이는 방향으로 브랜드 디자인을 진행합니다.
                   </p>
                 </div>
               </li>
@@ -191,18 +231,26 @@
       <!-- 리뷰 칸 -->
       <section id="section3">
         <div class="borderContainer">
-          <img src="./common/image/sub_img/border_m.svg" alt="border_m" />
-          <img src="./common/image/sub_img/border.svg" alt="border" />
+          <img
+            src="./common/image/sub_img/border_m.svg"
+            alt="border_m"
+            class="border_mobile"
+          />
+          <img
+            src="./common/image/sub_img/border.svg"
+            alt="border"
+            class="border_pc"
+          />
+
           <div class="btn_review">
             <img src="./common/image/sub_img/btn_review.svg" alt="btn_review" />
           </div>
           <p>
-            이번 프로젝트는 <a href="">대학생 때 작업했던 결과물</a>을 리디자인,
-            발전시켜 보기로 했다. 처음 리디자인을 진행할 땐 어디서부터 수정해야
-            할지 막막했지만, 다양한 앱을 참고하면서 와이어 프레임을 구상하니
-            수월하게 진행되었다. 이전 결과물은 단조롭고 미완성처럼 보여서 최대한
-            많은 앱을 참고하고 완성도 있게 디자인했다. 프로젝트를 다시 분석하고
-            수정하며, 자신을 발전시키는 계기가 돼 뿌듯했다.
+            세세한 자료조사, 효율적인 역할 분담으로 프로젝트를 진행했다.
+            외부인과 젊은 층의 유입을 위해 밝은 컬러, 귀여운 캐릭터를 활용해
+            디자인했고, 데이터를 기반으로 작업했기 때문에 최종 프로젝트 보고서,
+            판넬 제작도 수월하게 진행했다. 팀의 단합력도 상승해 좋은 결과를
+            만들어낸 것 같다.
           </p>
         </div>
       </section>

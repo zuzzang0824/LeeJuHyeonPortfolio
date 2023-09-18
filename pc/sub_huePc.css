@@ -1,14 +1,12 @@
 @charset "utf-8";
 #section2 .pjtImg {
   width: 40%;
-  position: absolute;
-  left: 5%;
-  top: 11%;
+  top: 20%;
 }
 
 #tab2 .txt {
   line-height: unset;
-  font-size: 1.8vw;
+  font-size: 1.8rem;
 }
 
 #tab2 {

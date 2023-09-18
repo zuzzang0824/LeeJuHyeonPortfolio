@@ -1,0 +1,4 @@
+@charset "utf-8";
+#tab2 .txt p:first-of-type {
+  margin-bottom: 1rem;
+}

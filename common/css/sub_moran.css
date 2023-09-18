@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.btnContainer2 {
+  top: unset;
+  bottom: -1rem;
+  column-gap: 1rem;
+}
+
+.btn_view {
+  height: 2.375rem;
+  position: unset;
+  transform: unset;
+}

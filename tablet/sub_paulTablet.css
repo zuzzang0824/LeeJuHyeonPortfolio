@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#tab_menu .txt {
+  grid-template-columns: 1.8fr 3.3fr;
+}

@@ -15,10 +15,11 @@
 }
 
 #section2 .pjtImg {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  left: 0;
-  top: -4.3rem;
+  left: 5%;
+  top: 6%;
+  margin: 0;
 }
 
 #tab_menu {

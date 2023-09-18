@@ -1,0 +1,16 @@
+@charset "utf-8";
+#tab2 .txt p:first-of-type {
+  margin-bottom: 0;
+}
+
+#tab2 .txt {
+  line-height: 2.5vw;
+}
+
+#section2 .pjtImg {
+  top: 18%;
+}
+
+#tab2 {
+  width: 70%;
+}
